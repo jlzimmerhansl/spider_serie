@@ -11,7 +11,7 @@ BOT_NAME = 'spider_robot'
 
 SPIDER_MODULES = ['spider_robot.spiders']
 NEWSPIDER_MODULE = 'spider_robot.spiders'
-
+FEED_EXPORT_ENCODING = 'utf-8'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'spider_robot (+http://www.yourdomain.com)'
